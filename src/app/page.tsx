@@ -1,4 +1,3 @@
-import { Grid } from "@mui/material";
 import Layout from "./components/Layout";
 import SlideShow from "./components/Slideshow";
 
