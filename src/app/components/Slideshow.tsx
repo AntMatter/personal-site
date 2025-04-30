@@ -12,9 +12,10 @@ export default function SlideShow() {
     const maxIndex = 4
 
     function renderImage(index: number) {
-        return (<Image
+        return (
+        <img
             key={index}
-            src={(window.location.origin + "/images/SitePics-" + index + ".jpg")}
+            src={("/images/SitePics-" + index + ".jpg")}
             alt="Photo" width={0}
             height={0}
             sizes="100vw"
