@@ -9,12 +9,12 @@ import '../styles.css'
 
 export default function SlideShow() {
     const [index, setIndex] = useState(0)
-    const maxIndex = 6
+    const maxIndex = 4
 
     function renderImage(index: number) {
         return (<Image
             key={index}
-            src={("/images/" + index + ".jpg")}
+            src={("/images/SitePics-" + index + ".jpg")}
             alt="Photo" width={0}
             height={0}
             sizes="100vw"
