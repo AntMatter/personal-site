@@ -14,7 +14,7 @@ export default function SlideShow() {
     function renderImage(index: number) {
         return (<Image
             key={index}
-            src={("../images/SitePics-" + index + ".jpg")}
+            src={(window.location.origin + "/images/SitePics-" + index + ".jpg")}
             alt="Photo" width={0}
             height={0}
             sizes="100vw"
